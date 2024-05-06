@@ -5,3 +5,6 @@ edition = "2021"
 
 [dependencies]
 pi = { path = "./pi" }
+
+[workspace]
+members = ["pi"]

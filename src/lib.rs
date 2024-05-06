@@ -1,6 +1,6 @@
 use pi::{IntoPI, PI};
 
-pub fn p<T>(v: Vec<T>) -> impl PI<Item = T>
+pub fn p<T>(v: Option<T>) -> impl PI<Item = T>
 where
     // T: Send,
 {
